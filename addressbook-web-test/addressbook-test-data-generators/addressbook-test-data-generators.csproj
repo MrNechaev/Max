@@ -57,6 +57,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Удали меня потом.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Удали меня потом.Designer.cs">
+      <DependentUpon>Удали меня потом.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
